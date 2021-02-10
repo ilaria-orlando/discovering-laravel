@@ -22,17 +22,6 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-            <div class="container border-gray-200 justify-center bg-light">
-                <form method="post">
-                    <label for="name">Name:</label><br>
-                    <input type="text" name="name"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" name="email"><br>
-                    <label for="phone">Phone:</label><br>
-                    <input type="number" name="phone"><br>
-                    <input type="submit" value="Submit" class="btn btn-danger">
-                </form>
-            </div>
+            <div class="container border-gray-200 justify-center">z</div>
         </div>
-    </body>
-</html>
+
