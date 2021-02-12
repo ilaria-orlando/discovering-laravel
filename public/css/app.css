@@ -1,4 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap);
 body {
   background-color: #f6f6f6;
   color: #161d6f;
+  margin: 0;
+}
+
+header {
+  margin: 0 auto;
+  background-color: #98ded9;
+  color: #f6f6f6;
+  text-align: center;
+  width: 1150px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  padding: 0 150px 0 75px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+.logo {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 45px;
+  margin: 0;
+  height: inherit;
+}
+.logo p {
+  margin: 0;
+}
+
+.container {
+  background-color: #c7ffd8;
+  margin: 0 auto;
+  padding: 50px;
+  width: 1150px;
+  text-align: center;
+  height: 100vh;
+}
+
+footer {
+  text-align: center;
 }

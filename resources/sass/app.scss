@@ -1,10 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
 $bglight : #f6f6f6;
 $green : #c7ffd8;
 $lightblue : #98ded9;
 $darkblue : #161d6f;
+$shadowsfont: 'Shadows Into Light Two', cursive;
 
 body {
     background-color: $bglight;
     color: $darkblue;
+    margin: 0;
 }
 
+header{
+    margin: 0 auto;
+    background-color: $lightblue;
+    color: $bglight;
+    text-align: center;
+    width: 1150px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding: 0 150px 0 75px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+.logo{
+    font-family: $shadowsfont;
+    font-size: 45px;
+    margin: 0;
+    height: inherit;
+    p {
+        margin: 0;
+    }
+}
+
+.container{
+    background-color: $green;
+    margin: 0 auto;
+    padding: 50px;
+    width: 1150px;
+    text-align: center;
+    height: 100vh;
+}
+
+footer{
+    text-align: center;
+}
